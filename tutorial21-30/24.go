@@ -10,7 +10,7 @@ func average (x, y float64) float64 {
     return (x + y) / 2
 }
 func good_enough(guess, x float64) bool {
-    if (abs((square(guess)) - x) < 0.001) {
+    if abs((square(guess)) - x) < 0.001 {
         return true
     } else {
         return false
